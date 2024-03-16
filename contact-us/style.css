@@ -1,0 +1,104 @@
+/* body  */
+body {
+  background-image: url(../images/contact-us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Contact Form */
+.contact-us-form {
+  padding: 30px 0;
+}
+
+.contact-us-form h1 {
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
+
+.contact-us-form span {
+  color: #ec6262;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+input,
+textarea,
+#contact-us-button {
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+select{
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 50vw;
+}
+
+.tooltip {
+  display: none;
+  background-color: #ec6262;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.tooltip-2{
+  display: none;
+}
+
+.dropdown:hover .tooltip {
+  display: block;
+  cursor: pointer;
+}
+
+#contact-us-button {
+  text-align: center;
+  background-color: #e0d386;
+}
+
+#contact-us-button:hover {
+  background-color: #65e765;
+  cursor: pointer;
+}
+
+input:focus:invalid{
+  background-color: #d36060;
+}
+
+input:focus {
+  background-color: #65e765;
+}
+
+/* Media Query for Desktop View */
+@media only screen and (min-width: 40rem) {
+
+  .tooltip{
+    display: none;
+  }
+
+  .dropdown:hover .tooltip{
+    display: none;
+  }
+
+  .tooltip-2 {
+  display: none;
+  background-color: #ec6262;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.dropdown:hover .tooltip-2 {
+  display: block;
+  cursor: pointer;
+}
+}

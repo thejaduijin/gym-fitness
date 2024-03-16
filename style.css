@@ -1,0 +1,317 @@
+/* Primary Section Code */
+
+.primary-section {
+  background-image: url(./images/img6.jpg);
+  background-position: left 40% bottom 20%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+/* Get ready to burn styling code */
+.impactfull-text {
+  position: absolute;
+  color: #ffffff;
+  bottom: 12%;
+  left: 35%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.impactfull-text span {
+  padding-left: 27%;
+  color: #ffff00;
+}
+
+/*We help to achieve your dream body styling code  */
+.tag-line-text {
+  color: #ffffff;
+  position: absolute;
+  top: 10%;
+  font-size: 2rem;
+}
+.tag-line-text span {
+  padding-left: 24%;
+  color: #ffff00;
+}
+
+/* Featured class Section Code */
+
+.featured-class {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.featured-classes-section {
+  margin-top: 2rem;
+}
+.featured-class-para {
+  text-align: center;
+  color: #ec6262;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+/* Featured class Category Code */
+
+.featured-class-category {
+  width: 70vw;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.featured-class-category h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.featured-class-category a {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.heavy-weight-category img,
+.bodybuilding-category img,
+.weightloss-category img,
+.cardio-category img {
+  width: 30%;
+  margin: 15% auto;
+  display: flex;
+  border-radius: 50%;
+}
+
+.bodybuilding-category img {
+  border: 8px solid #000000;
+}
+
+.cardio-category img,
+.weightloss-category img {
+  border: 8px solid #ffffff;
+}
+
+.heavy-weight-category,
+.weightloss-category,
+.bodybuilding-category,
+.cardio-category {
+  border-radius: 10%;
+  background-color: #d3d2d2;
+}
+
+/* Offer Section Code */
+
+.offer-section {
+  background-image: url(/images/offerimg1.jpg);
+  height: 75vh;
+  margin-top: 4rem;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.offer-section-text {
+  color: #ffff00;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.offer-section-para {
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+#know-more-button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #ec6262;
+  background-color: transparent;
+  border: 2px solid #ec6262;
+}
+
+/* Enquiry Form Code */
+
+.demo-video video {
+  margin-top: 1.5rem;
+  width: 80vw;
+  height: 60vh;
+}
+
+.enquiry-section {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 2.5rem;
+}
+
+.enquiry-section-heading {
+  margin-top: 1rem;
+}
+
+.enquiry-section-para {
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #ec6262;
+}
+
+.enquiry-form {
+  background-color: #ec6262;
+  width: 80vw;
+  margin: 5% auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 20px;
+}
+
+input,
+textarea,
+#enquiry-form-button {
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+#enquiry-form-button {
+  background-color: #e0d386;
+  font-size: 1.5rem;
+  box-shadow: 5px 5px;
+}
+
+/* Testimonial Section Code*/
+
+.testimonial {
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.testimonial-heading {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.head-coach,
+.trainer {
+  background-repeat: no-repeat;
+  color: #ec6262;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.head-coach-img,
+.trainer-img {
+  height: 80vh;
+  width: 90vw;
+  /* min-width: 20rem;
+  max-width: 40rem; */
+}
+
+.head-coach-img2,
+.head-coach-img3,
+.trainer-img2,
+.trainer-img3 {
+  display: none;
+}
+
+.testimonial-info {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  text-align: justify;
+  padding: 1rem 2rem;
+}
+
+.testimonial-info span {
+  color: #ec6262;
+  font-weight: 900;
+}
+
+/* Media Query For Desktop View */
+
+@media only screen and (min-width: 40rem) {
+
+  /* Primary Section */
+
+  .primary-section {
+    background-position: left 10% bottom 51%;
+    background-size: cover;
+  }
+
+   /* To burn Text styling code  */
+
+  .impactfull-text span {
+    padding-left: 27%;
+  }
+
+  /*featured class category  */
+
+  .featured-class-category {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    margin-top: 25px;
+  }
+  .featured-class-category div:hover {
+    text-decoration: none;
+    background-color: #ec6262;
+    cursor: pointer;
+    transition: 2s;
+  }
+
+  /* Offer Section */
+
+  .offer-section {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Demo Video */
+
+  .demo-video video{
+    width: 40vw;
+    height: 80%;
+  }
+
+  /* Enquiry Section */
+
+  .enquiry-section {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+  }
+  .enquiry-section-heading {
+    margin: 0;
+  }
+  .enquiry-form {
+    width: 40vw;
+  }
+
+  /* Testimonial Code */
+  
+  .head-coach-img2,
+  .head-coach-img3,
+  .trainer-img2,
+  .trainer-img3,
+  .head-coach-img,
+  .trainer-img {
+    display: flex;
+    height: 70vh;
+    width: 60vw;
+    min-width: 20rem;
+    max-width: 40rem;
+  }
+
+  .img-container {
+    display: flex;
+    gap: 5%;
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .testimonial-info {
+    width: 50vw;
+    margin: 4% auto;
+  }
+}

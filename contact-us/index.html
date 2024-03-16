@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importing Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="../images/logo.png" type="image/png" />
+    <title>CONTACT US</title>
+  </head>
+  <body>
+    <header>
+      <!-- Website Logo -->
+      <div class="brand">
+     <a href="../index.html" class="website-logo"><img src="/images/logo.png" alt="website logo"></a>
+     
+     </div>
+
+     <!-- Navigation bar with List -->
+      <nav class="main-nav-bar">
+        <ul class="main-nav-bar-list">
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="/our-plans/index.html">PLANS</a></li>
+          <li><a href="/about-us/index.html">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <!-- Website Name -->
+      <h3 class="brand-name">
+       Gym & Fitness
+     </h3>
+    </header>
+
+  <main>
+    <!-- Contact Form Section -->
+    <section class="contact-us-form">
+      <h1>Feel Free to <span>Contact US</span></h1>
+      <form action="" method="post">
+        <input
+          type="text"
+          name="first-name"
+          placeholder="First Name"
+          size="40"
+          required
+          maxlength="20"
+          disabled
+        />
+
+        <input
+          type="text"
+          name="last-name"
+          placeholder="Last Name"
+          size="40"
+          required
+          maxlength="20"
+        />
+
+        <input
+          type="text"
+          name="phone"
+          placeholder="Phone No."
+          size="10"
+          required
+          maxlength="10"
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder="E-Mail ID"
+          size="40"
+          required
+        />
+
+        <input
+          type="text"
+          name="age"
+          placeholder="Age"
+          required
+        />
+
+        <input
+          type="text"
+          name="Weight"
+          placeholder="Weight"
+          required
+        />
+        <div class="dropdown">
+        <select name="choose-classes" multiple required>
+          <option value="Heavy Weight">Heavy Weight</option>
+          <option value="Weightloss">Weightloss</option>
+          <option value="Cardio">Cardio</option>
+          <option value="Body Building">Body Building</option>
+        </select>
+
+        <p class="tooltip">
+         Long Press for multiple selection.
+        </p>
+
+        <p class="tooltip-2">
+           Press ctrl for multiple selection.
+        </p>
+
+         </div>
+
+        <textarea
+          name="massege"
+          placeholder="Discription"
+          cols="20"
+          rows="10"
+          minlength="20"
+        ></textarea>
+        <button id="contact-us-button">SEND</button>
+      </form>
+    </section>
+  </main>
+   <footer>© 2021 All Rights Reserved. Design By Lokendra Singh</footer>
+  </body>
+</html>

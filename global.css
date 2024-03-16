@@ -1,0 +1,104 @@
+/* To reset browser default */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For hiding scrollbar */
+
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header code */
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  height: 50px;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  gap: 10%;
+  align-items: center;
+  min-width: 320px;
+}
+
+/* Website Logo Code */
+
+.website-logo img {
+  width: 50px;
+  height: 48px;
+}
+
+.brand img:hover {
+  background-color: #ec6262;
+}
+
+/* Website name */
+
+.brand-name {
+  color: #ffff00;
+  display: none;
+}
+
+/* Navigation List  */
+
+.main-nav-bar-list {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.2rem;
+  gap: 5%;
+}
+
+.main-nav-bar-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav-bar-list a:hover {
+  background-color: #ec6262;
+  padding: 10px;
+}
+
+/* Footer Code */
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.4rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Media Query for Desktop View */
+
+@media only screen and (min-width: 40rem) {
+
+/* Header Code */
+
+  header {
+   justify-content: space-around;
+  }
+
+  header:last-child{
+    justify-content: flex-end;
+  }
+
+  .main-nav-bar-list {
+    height: 50px;
+    gap: 10%;
+    align-items: center;
+  }
+
+  .brand-name {
+    display: block;
+  }
+}

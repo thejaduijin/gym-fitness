@@ -1,0 +1,91 @@
+/* Article Section Styling Code */
+article h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 4rem;
+}
+
+.about-our-zym {
+  margin-top: 2rem;
+}
+
+.about-our-zym h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.about-our-zym img {
+  width: 100vw;
+  height: 70vh;
+}
+
+.about-our-zym-para {
+  margin-top: 1rem;
+  text-align: justify;
+  padding: 20px;
+}
+
+/* Core Values Section Code */
+
+.core-values-head {
+  margin-top: 2rem;
+}
+
+.core-values {
+  gap: 20px;
+}
+
+.core-values-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  text-align: center;
+  gap: 2.5rem;
+}
+
+/* Our Team Section Styling */
+.our-team p,
+.our-team h1 {
+  margin: 1rem 0;
+}
+
+.our-team p{
+ padding: 20px;
+}
+
+ .our-team img{
+    width: 100vw;
+  }
+
+/* Media Query for Desktop View */
+
+@media only screen and (min-width: 40rem) {
+
+/* Article Styling Code */
+  article {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  .about-our-zym img {
+    width: 60vw;
+  }
+
+/* Core Value Styling Code */
+  .core-values-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+  }
+
+  /* Our Team Styling Code */
+  .our-team {
+    margin-top: 10rem;
+  }
+
+  .our-team img{
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+  }
+}
